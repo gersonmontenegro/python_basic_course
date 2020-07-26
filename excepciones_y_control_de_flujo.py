@@ -20,7 +20,6 @@ paises = ['Polombia', 'Chamozuela', 'Perú']
 # print(result)
 
 # LBYL style
-import pydash
 def buscaPais(paises, pais):
     result = pydash.objects.find_key(paises, lambda p: p == pais)
     return result
